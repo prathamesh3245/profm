@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/exo-space');
+@import url('https://fonts.cdnfonts.com/css/cyborg-punk');
+@import url('https://fonts.cdnfonts.com/css/chivo-mono');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    background-color: rgb(53, 236, 53);
+    height: 10vh;
+    width: 100%;
+}
+
+.box2{
+    background-image : url(img/2481699.jpg);
+    height: 106vh;
+    width: 100%;
+    background-size: max(1300px, 140vw);
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+    position: relative;
+}
+
+.box3 {
+    height: 106vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0,0.6);
+    position: absolute;
+}
+
+.box img{
+    margin: 5px;
+    height: 63px;
+    width: 65px;
+    
+}
+
+.boxinbox{
+    display: flex;
+    align-items: center;
+}
+
+.inbox{
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+}
+.boy{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    padding-left: 900px;
+    padding-top: 230px;
+    object-fit: scale-down;
+}
+/* .box3 img{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+} */
+.dialogue{
+    height: 64px;
+    width: 350px;
+    background-color: rgba(0, 128, 0,0.4);
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 300px;
+}
+
+.text p {
+    z-index: 10;
+    position: relative;
+    color: rgb(140, 237, 140);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: normal;
+    font-family: "Tiny5", sans-serif;
+}
+
+.info{
+    color: white;
+    padding-left: 60px;
+    padding-top: 30px;
+    font-size: 67px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px;
+    font-family: 'Exo Space', sans-serif;
+}
+
+.green
+{
+    color: rgb(72, 213, 72);
+}
+
+.para
+{
+    z-index: 10;
+    position: relative;
+    color: white;
+    padding-left: 60px;
+    margin-top: -480px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: "Orbitron", sans-serif;
+}
+
+.main{
+    height: 150vh;
+}
+
+.content
+{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 116vh;
+    background-color: rgb(9, 10, 25);
+}
+
+.tool{
+    height: 90px;
+    width: 250px;
+    background-color: rgb(18, 19, 44);
+    border: 3.7px solid  rgba(72, 213, 72,0.4);
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  rgb(72, 213, 72);
+    font-style: normal;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 48px;
+    font-family: "Orbitron", sans-serif;
+}
+
+.skill1{
+    margin-top: 18vh;
+    height: 190px;
+    width: 390px;
+    background-color: rgb(99, 62, 202);
+    border-radius: 19px;
+    border: 10px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill1 p{
+    line-height: 16px;
+    color: white;
+    font-size: 34px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "Poppins", sans-serif;                                                                      
+}
+
+.skill1 img{
+    height: 144px;
+    width: 144px;
+    object-fit: scale-down;
+}
+.mongodb img{
+    height: 108px;
+    width: 108px;
+    padding-right: 12px;
+}
+
+.react img{
+    height: 108px;
+    width: 108px;
+    padding-right: 15px;
+}
+
+.next img{
+    height: 104px;
+    width: 110px;
+    padding-right: 15px;
+}
+
+.tail img{
+    width: 100px;
+    height: 100px;
+    padding-right: 15px;
+}
+.skill1:hover{
+    background-color: rgb(116, 74, 233, 0.6);
+}
+
+.low{
+    height: 200vh;
+    width: 100%;
+    background-color: rgb(9, 10, 25);
+    display: flex;
+    justify-content:left;
+    align-items: end;
+    justify-content: center;
+}
+
+.myself{
+    position: absolute;
+    height: 267px;
+    width: 845px;
+    background-color: black;
+    color: white;
+    margin: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgba(255, 255, 255,0.7);
+}
+
+.first{
+    margin-bottom: 75px;
+    margin-right: 84px;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 45px;
+}
+
+.big{
+    font-size: 90px;
+}
+
+.second{
+    padding-top: 95px;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 45px;
+}
+
+.huge{
+    font-size: 120px;
+    line-height: 45px;
+    color: rgb(23, 187, 23);
+}
+
+.act{
+    display: flex;
+    justify-content:first baseline;
+    margin-bottom: 23px;
+    font-weight: 2000%;
+    color: red;
+}
+
+.low2{
+    background-color: rgb(9, 10, 25);
+}
+
+.myself .img1{
+    height: 134px;
+    width: 134px;
+    margin-bottom: 270px;
+    object-fit: scale-down;
+}
+
+.myself .img2{
+    height: 134px;
+    width: 134px;
+    margin-top: 270px;
+    object-fit: scale-down;
+}
+
+.seperation{
+    border: 8px solid rgba(16, 11, 45, 0.8);
+}
+.low2{
+    background-image: url(img/spaceman.png);
+    height: 106vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    object-fit: scale-down;
+    position: relative;
+    background-size: max(1300px, 140vw);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.low3{
+    height: 106vh;
+    background-color: black;
+    opacity: 0.3;
+}
+
+.contact{
+    height: 127px;
+    width: 300px;
+    margin-top: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(16, 11, 45,0.5);
+    border-radius: 89px;
+    border: none;
+}
+
+.contact:hover{
+    background-color: rgba(12, 80, 170, 0.5);
+}
+
+.contact p{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 23px;
+    font-family: 'Chivo Mono', sans-serif;                                         
+}
+
+.media{
+    margin-top: 23px;
+    position: relative;
+    height: 114px;
+    width: 700px;
+    background-color: rgb(15, 14, 14);
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    padding-left: 323px;
+
+}
+
+.media:hover{
+    background-color: rgb(35, 34, 34);
+    cursor:pointer;
+}
+
+.footer{
+    padding-top: 23px;
+    height: 50vh;
+    width: 100%;
+    background-color: black;
+}
+
+.media img{
+    height: 78px;
+    width: 78px;
+    margin: 67px;
+}
+
+.media a{
+    text-decoration: none;
+    color: white;
+    font-size: 34px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "Poppins", sans-serif;
+}
+
+.link a{
+    text-decoration: none;
+    font-size: 34px;
+    font-weight: 300;
+    color: white;
+    padding: 67px;
+}
+.link1{
+    margin: 75px;
+    padding-right: 33px;
+}
+
+.link a:hover{
+    color: rgb(50, 109, 197);
+}
+.sources{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
